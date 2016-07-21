@@ -22,7 +22,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 
 public class FileExcludeStopWord{
 
-
+  
 	/**
 	 * 1：按句子读取（按行） 
          * 2：<span style="font-family: Arial, Helvetica, sans-serif;">去标点去空格</span> 
@@ -30,7 +30,7 @@ public class FileExcludeStopWord{
 
 	 * */
 	public String doEx(String text) {
-
+                //l....
 		// TODO 1：按句子读取（按行）
 		// 读文件，文件是否存在
 		List<String> stringList = new ArrayList<String>();
