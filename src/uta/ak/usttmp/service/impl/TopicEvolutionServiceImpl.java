@@ -23,9 +23,9 @@ import uta.ak.usttmp.util.SetUtil;
  */
 public class TopicEvolutionServiceImpl implements TopicEvolutionService {
     
-    protected static double similarityThreshold = 0.3;
+    protected static double similarityThreshold = 0.7;
 //    protected static int filterPositionForPreGroup = 3;
-    protected static double ratioThresholdToMaxSimilarity = 0.5;
+    protected static double ratioThresholdToMaxSimilarity = 0.6;
     
     @Override
     public List<EvolutionRelationship> getTopicEvolutionRelationships( List<Topic> preTopics,
